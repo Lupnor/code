@@ -1,18 +1,36 @@
-
 <head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@media (min-width: 768px) {
+	body {
+		font-family: 'Nunito', cursive;
+        background-image: url('https://imgur.com//goe69XN.png');
+        background-size: 100%;
+		background-attachment: fixed;
+        color: #3e1b58;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 1);
+        font-size: 15px;
+	}
+}
 
-body {
-background-image: url("https://imgur.com//goe69XN.png");
-background-color: #ff0000;
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}}
+@media (max-width: 768px) {
+    body {
+        font-family: 'Nunito', cursive;
+		background: transparent;
+        background-image: url('https://imgur.com//goe69XN.png');
+		background-attachment: fixed;
+		background-size: 100%;
+        color: #3e1b58;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 1);
+        font-size: 15px;
+        width: auto !important;
+        min-width: 600px;
+    }
 
 </style>
 </head>
